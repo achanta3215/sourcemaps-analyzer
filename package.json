@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/achanta3215/sourcemaps-analyzer#readme",
   "dependencies": {
-    "source-map": "0.7.3"
+    "source-map": "0.7.3",
+    "prompt-sync": "4.2.0"
   }
 }
