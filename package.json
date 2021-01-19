@@ -1,0 +1,25 @@
+{
+  "name": "sourcemaps-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achanta3215/sourcemaps-analyzer.git"
+  },
+  "keywords": [
+    "sourcemaps"
+  ],
+  "author": "Krishna Sameer Achanta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achanta3215/sourcemaps-analyzer/issues"
+  },
+  "homepage": "https://github.com/achanta3215/sourcemaps-analyzer#readme",
+  "dependencies": {
+    "source-map": "0.7.3"
+  }
+}
