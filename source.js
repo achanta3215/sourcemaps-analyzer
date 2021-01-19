@@ -17,12 +17,15 @@ const repoPath = getInput(
     { env: 'SOURCE_FILES_REPO' });
 const version = getInput('Enter git branch where error occurs ');
 const mapFile = getInput('Enter name of map file ');
+const lineNumber = getInput('Enter line number ');
+const columnNumber = getInput('Enter column number ');
+
 (async function main() {
     const consumer = await new sourceMap.SourceMapConsumer(fs.readFileSync(mapsFolder + mapFile, "utf8"));
     const { line: sourceLineNumber, source } = consumer.originalPositionFor(
         {
-            line: 1,
-            column: 273151,
+            line: Number(lineNumber),
+            column: Number(columnNumber),
         }
     );
     const sourceFile = source.replace('webpack:///', '');
