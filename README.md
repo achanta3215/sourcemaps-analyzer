@@ -1,6 +1,7 @@
 # sourcemaps-analyzer
 
 Run `npm i`
+Run `node source.js`
 
 Can set two **environment variables** for convenience.
 
